@@ -1,6 +1,7 @@
 
 export type BypassState = 'ON' | 'OFF';
 export type StatusState = 'Running' | 'Not running';
+export type Difficulty = 'Easy' | 'Medium' | 'Hard';
 
 export interface PanelData {
   name: string;

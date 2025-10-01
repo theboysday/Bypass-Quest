@@ -1,9 +1,15 @@
 
-import type { Scenario, PanelData, BypassState, StatusState } from '../types';
+import type { Scenario, PanelData, Difficulty } from '../types';
 
-export const generateScenario = (): Scenario => {
-  const panelCount = 15; // 1 Master + 15 Children
-  const faultIndex = Math.floor(Math.random() * panelCount) + 1; // Random fault from Child 1 to 15
+const DIFFICULTY_CONFIG = {
+  Easy: { panels: 8 },
+  Medium: { panels: 15 },
+  Hard: { panels: 24 },
+};
+
+export const generateScenario = (difficulty: Difficulty): Scenario => {
+  const panelCount = DIFFICULTY_CONFIG[difficulty].panels;
+  const faultIndex = Math.floor(Math.random() * panelCount) + 1; // Random fault from Child 1 to panelCount
   const faultPanelName = `Child ${faultIndex}`;
 
   const panels: PanelData[] = [];
