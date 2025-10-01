@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 404">
+  <defs>
+    <linearGradient id="icon-gradient" x1="0" x2="40" y1="0" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#41d1ff" />
+      <stop offset="1" stop-color="#bd34fe" />
+    </linearGradient>
+    <linearGradient id="flame-gradient" x1="16" x2="31" y1="-10" y2="19" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffea83" />
+      <stop offset="0.083" stop-color="#ffdd35" />
+      <stop offset="1" stop-color="#ffa800" />
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#icon-gradient)"
+    d="M399.641 59.525L215.643 388.545c-5.598 9.935-19.96 9.897-25.517-0.072L9.292 59.525c-5.985-10.64 2.256-23.513 14.004-21.864L205.223 58.92c0.955 0.135 1.918 0.135 2.873 0l181.927-21.26c11.748-1.649 19.989 11.224 14.004 21.864z"
+  />
+  <path
+    fill="url(#flame-gradient)"
+    d="M292.965 1.574L156.789 23.363a1.906 1.906 0 00-1.586 1.864v147.856c0 1.17 1.07 2.034 2.22 1.84l38.163-6.463c1.058-0.179 1.81-1.094 1.81-2.164V65.12c0-1.254 1.148-2.189 2.383-1.837l40.804 11.548a2.03 2.03 0 011.434 1.937v188.058c0 1.451 1.429 2.5 2.837 2.071l24.407-7.033a2.03 2.03 0 001.434-1.937l0.177-255.278c0-1.17-1.07-2.034-2.22-1.84z"
+  />
+</svg>
