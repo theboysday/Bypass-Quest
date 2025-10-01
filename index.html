@@ -12,6 +12,16 @@
         background-color: #111827; /* bg-gray-900 */
       }
     </style>
+    <script>
+      (function redirectToGitHubPagesRepo() {
+        if (typeof window === 'undefined') return;
+        const repoPath = '/Bypass-Quest/';
+        const hostname = window.location.hostname;
+        if (hostname.endsWith('.github.io') && !window.location.pathname.startsWith(repoPath)) {
+          window.location.replace(repoPath);
+        }
+      })();
+    </script>
   <script type="importmap">
 {
   "imports": {
